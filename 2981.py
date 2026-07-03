@@ -3,4 +3,4 @@ firstname = input()
 lastname = input()
 #prints the output
 print(f"Hello {firstname} {lastname}")
-print(f"{firstname[0:2]} {lastname[0:2]}")
+print(f"{firstname[0:2]+lastname[0:2]}")
