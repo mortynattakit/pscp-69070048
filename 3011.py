@@ -1,0 +1,12 @@
+"""this will tell u what color it is when add primary color"""
+color1 = input()
+color2 = input()
+
+if (color1 == "Red" and color2 == "Yellow") or (color1 == "Yellow" and color2 == "Red"):
+    print("Orange")
+elif (color1 == "Red" and color2 == "Blue") or (color1 == "Blue" and color2 == "Red"):
+    print("Violet")
+elif (color1 == "Blue" and color2 == "Yellow") or (color1 == "Yellow" and color2 == "Blue"):
+    print("Green")
+else:
+    print("Error")
