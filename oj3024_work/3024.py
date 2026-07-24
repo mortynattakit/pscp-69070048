@@ -8,4 +8,3 @@ if maxnum - minhighpos > 2:
     print("Surprising")
 elif maxnum - minhighpos <= 2:
     print("Not surprising")
-2
