@@ -3,9 +3,15 @@ a = int(input())
 b = int(input())
 c = int(input())
 d = int(input())
-bottles = 0
-if not b:
-    print(d // a)
-else:
-    while True:
-        bottles = 
+
+bottles = d // a
+total = bottles
+
+if b:
+    caps = bottles
+    while caps >= b:
+        exchanged = (caps // b) * c
+        caps = caps % b + exchanged
+        total += exchanged
+
+print(total)
