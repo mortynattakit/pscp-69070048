@@ -4,9 +4,16 @@ bottlesfordiscount = int(input())
 discountprice = int(input())
 bottlesbought = int(input())
 
-price = bottlesbought * priceperbottle
+price = 0
+caps = 0
+bottles = 0
 
-if bottlesfordiscount == 0:
-    print(price)
-else:
-    
+while bottles < bottlesbought:
+    if 0 < bottlesfordiscount <= caps:
+        price += discountprice
+        caps -= bottlesfordiscount
+    else:
+        price += priceperbottle
+    bottles += 1
+    caps += 1
+print(price)
