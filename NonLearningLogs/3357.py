@@ -1,0 +1,11 @@
+"""This code counts giraffes taller than their neighbors"""
+num = int(input())
+heights = [0]
+for _ in range(num):
+    heights.append(int(input()))
+heights.append(0)
+count = 0
+for i in range(1, num + 1):
+    if heights[i] > heights[i - 1] and heights[i] > heights[i + 1]:
+        count += 1
+print(count)
