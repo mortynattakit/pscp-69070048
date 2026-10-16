@@ -15,7 +15,7 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-OJ3298 - oj3298
+OJ3298 - กระต่ายน้อยรัก BUU
 ```
 
 OJ submission ID, if submitted:
